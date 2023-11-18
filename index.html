@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <title>Document</title>
+</head>
+<body class="wwe bg-white m-0 p-0">
+  <div class="navbar navbar-default bg-primary  " role="navigation">
+    <div class="navbar-header d-block">
+      <a class href="index.html">
+              <span class="navbar-brand float-end h-50 p-4 fs-4 lh-1">
+          <span class="fa fa-paper-plane d-block fst-normal text-white p- fw-normal lh-1 "><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+            <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+          </svg>Aircraft</span> 
+        </span>
+      </a>
+    </div>
+    <ul id="main-menu" class="nav navbar-nav navbar-right">
+      <li class="dropdown hidden-xs float-end shadow-none p-4">
+          <a href="#" class="dropdown-toggle text-decoration-none text-white shadow-none" data-toggle="dropdown">
+              <span class="glyphicon glyphicon-user text-decoration-none padding-right-small position-relative top-3 " style="position:relative;top: 3px;"></span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg> Jack Smith
+              <i class="fa fa-caret-down"></i>
+          </a>
+       </ul>
+  </li>
+</div>
+<aside id="sidebar" class="">
+    <div class="sidebar-nav text-decoration-none p-1 ">
+    <ul>
+    <li><a href="#" data-target=".dashboard-menu  text-decoration-none" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-dashboard text-decoration-none"></i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-speedometer2" viewBox="0 0 16 16">
+        <path d="M8 4a.5.5 0 0 1 .5.5V6a.5.5 0 0 1-1 0V4.5A.5.5 0 0 1 8 4zM3.732 5.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 10a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 10zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 9.31a.91.91 0 1 0 1.302 1.258l3.434-4.297a.389.389 0 0 0-.029-.518z"/>
+        <path fill-rule="evenodd" d="M0 10a8 8 0 1 1 15.547 2.661c-.442 1.253-1.845 1.602-2.932 1.25C11.309 13.488 9.475 13 8 13c-1.474 0-3.31.488-4.615.911-1.087.352-2.49.003-2.932-1.25A7.988 7.988 0 0 1 0 10zm8-7a7 7 0 0 0-6.603 9.329c.203.575.923.876 1.68.63C4.397 12.533 6.358 12 8 12s3.604.532 4.923.96c.757.245 1.477-.056 1.68-.631A7 7 0 0 0 8 3z"/>
+      </svg>Dashboard<i class="fa fa-collapse"></i></a></li>
+      <li><a href="#" data-target=".dashboard-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-dashboard"></i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+        <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+      </svg> Preimum Featiur<i class="fa fa-collapse"></i></a></li>
+        <ul class="dashboard-menu nav nav-list collapse" style="height: 0px;">
+            <li><a href="#"><span class="fa fa-caret-right"></span> Main</a></li>
+            <li><a href="#"><span class="fa fa-caret-right"></span> User List</a></li>
+            <li><a href="#"><span class="fa fa-caret-right"></span> User Profile</a></li>
+            <li><a href="#"><span class="fa fa-caret-right"></span> Media</a></li>
+            <li><a href="#"><span class="fa fa-caret-right"></span> Calendar</a></li>
+    </ul></li>
+
+         <li><a href="#" data-target=".accounts-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-briefcase"></i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+          </svg> Account <span class="label label-info"></span></a></li>
+        <ul class="accounts-menu nav nav-list collapse">
+            <li><a href="#"><span class="fa fa-caret-right"></span> Sign In</a></li>
+            <li><a href="#"><span class="fa fa-caret-right"></span> Sign Up</a></li>
+            <li><a href="#"><span class="fa fa-caret-right"></span> Reset Password</a></li>
+    </ul></li>
+        <li><a href="#" data-target=".legal-menu" class="nav-header collapsed" data-toggle="collapse"><i class="fa fa-fw fa-legal"></i> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+          </svg>Legal<i class="fa fa-collapse"></i></a></li>
+        <ul class="legal-menu nav nav-list collapse">
+            <li><a href="privacy-policy.html"><span class="fa fa-caret-right"></span> Privacy Policy</a></li>
+            <li><a href="terms-and-conditions.html"><span class="fa fa-caret-right"></span> Terms and Conditions</a></li>
+    </ul></li>
+        <li><a href="help.html" class="nav-header"><i class="fa fa-fw fa-question-circle"></i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+          </svg> Help</a></li>
+            <li><a href="faq.html" class="nav-header"><i class="fa fa-fw fa-comment"></i><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-fill" viewBox="0 0 16 16">
+                <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+              </svg> Faq</a></li>
+                <li><a href="#" class="nav-header" target="blank"><i class="fa fa-fw fa-heart"></i> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                  </svg> Get Premium</a></li>
+            </ul>
+    </div> 
+</aside>
+    <div class="content">
+      <div class="header">
+          <div class="stats">
+          <p class="stat"><span class="label label-info">5</span> Tickets</p>
+          <p class="stat"><span class="label label-success">27</span> Tasks</p>
+          <p class="stat"><span class="label label-danger">15</span> Overdue</p>
+          </div>
+
+          <h1 class="page-title  M-0">Dashboard</h1>
+            <ul class="breadcrumb m-1">
+              <li>Home /</a> </li>
+              <li class="active">Dashboard</li>
+            </ul>
+      </div>
+      <div class="main-content">
+        <div class="panel panel-default">
+          <a class="panel-heading text-decoration-none text-dark m-2" data-toggle="collapse">Latest Stats</a>
+                      <div class="chart__list">
+                <div class="pie__chart">
+                    <div class="circular-progress">
+                        <span class="progress-value">2500</span>
+                    </div>
+                    <span class="text">Accounts</span>
+                </div>
+                <div class="pie__chart">
+                    <div class="circular-progress progress__2">
+                        <span class="progress-value">3299</span>
+                    </div>
+                    <span class="text">Subscribers</span>
+                </div>
+                <div class="pie__chart">
+                    <div class="circular-progress progress__3">
+                        <span class="progress-value">1840</span>
+                    </div>
+                    <span class="text">Pending</span>
+                </div>
+                <div class="pie__chart">
+                    <div class="circular-progress progress__4">
+                        <span class="progress-value">10067</span>
+                    </div>
+                    <span class="text">Completed</span>
+                </div>
+              </div>
+          
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading no-collapse ">Not Collapsible<span class="label label-warning">+10</span></div>
+                    <table class="table table-bordered table-striped">
+                      <thead>
+                        <tr class="qww text-decoration-none">
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Username</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Mark</td>
+                          <td>Tompson</td>
+                          <td>the_mark7</td>
+                        </tr>
+                        <tr>
+                          <td>Ashley</td>
+                          <td>Jacobs</td>
+                          <td>ash11927</td>
+                        </tr>
+                        <tr>
+                          <td>Audrey</td>
+                          <td>Ann</td>
+                          <td>audann84</td>
+                        </tr>
+                        <tr>
+                          <td>John</td>
+                          <td>Robinson</td>
+                          <td>jr5527</td>
+                        </tr>
+                        <tr>
+                          <td>Aaron</td>
+                          <td>Butler</td>
+                          <td>aaron_butler</td>
+                        </tr>
+                        <tr>
+                          <td>Chris</td>
+                          <td>Albert</td>
+                          <td>cab79</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="panel panel-default">
+                    <a href="#" class="panel-heading" data-toggle="collapse text-decoration-none text-dark">Collapsible </a>
+                    <div id="widget1container"> 
+                        <h2>Here's a Tip</h2>
+                        <p>This template was developed with Middleman  and includes .erb layouts and views.</p>
+                        <p>All of the views you see here (sign in, sign up, users, etc) are already split up so you don't have to waste your time doing it yourself!</p>
+                        <p>The layout.erb file includes the header, footer, and side navigation and all of the views are broken out into their own files.</p>
+                        <p>If you aren't using Ruby, there is also a set of plain HTML files for each page, just like you would expect.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      
+</body>
+</html>
